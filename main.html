@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Touch-Nums</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body onload="onInit()">
+    <h1>Touch-Nums</h1>
+    <div class="game-display">
+        <button onclick="newGame()">New Game</button>
+        <p>Choose Your Level:</p>
+        <button onclick="selectMode(this)">Easy(16)</button>
+        <button onclick="selectMode(this)">Hard(25)</button>
+        <button onclick="selectMode(this)">Extrem!(36)</button>
+        <p class="game-time">Game Time:</p>
+        <p class="next-num">Next Number:</p>
+        <table>
+            <tbody class="board-display">
+
+            </tbody>
+        </table>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

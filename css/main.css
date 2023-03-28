@@ -1,0 +1,41 @@
+body {
+    text-align: center;
+    font-family: cursive;
+}
+
+.game-display {
+    background-color: rgb(161, 128, 154);
+    height: 700px;
+    width: 600px;
+    margin: auto;
+}
+
+table,
+td {
+    border: 1px solid darkblue;
+    border-collapse: collapse;
+    background-color: rgb(34, 188, 60);
+    margin: auto;
+    cursor: pointer;
+}
+
+.board-display td {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    transition: 0.8s;
+    padding: 10px;
+    margin-left: 100px;
+}
+
+.found-num {
+    background-color: rgb(211, 54, 36);
+}
+
+button {
+    background-color: rgb(88, 88, 211);
+    font-family: cursive;
+}
+button:hover {
+    cursor: pointer;
+}
